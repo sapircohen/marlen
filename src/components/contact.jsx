@@ -4,19 +4,24 @@ import {Form,Col,Button} from 'react-bootstrap';
 const ContactMe = () => {
     return ( 
         <Form style={{padding:'30px',direction:'rtl'}}>
-            <Form.Row>
-                <Col>
-                    <Form.Control placeholder="שם מלא" />
+            <Form.Row style={{placeContent:'center'}}>
+                <h3>מעוניין לקדם את העסק ?</h3>
+            </Form.Row>
+            <Form.Row style={{marginTop:'3%'}}>
+                <Col></Col>
+                <Col xs="2">
+                    <Form.Control placeholder="איך קוראים לך ?" />
                 </Col>
-                <Col>
-                    <Form.Control placeholder="אימייל" />
+                <Col xs="2">
+                    <Form.Control placeholder="מה המייל שלך ?" />
                 </Col>
-                <Col>
-                    <Form.Control placeholder="מספר טלפון" />
+                <Col xs="2">
+                    <Form.Control placeholder="לאיזה טלפון להתקשר ?" />
                 </Col>
-                <Col style={{textAlign:'center'}}>
-                   <Button variant="outline-info">צור קשר</Button>
+                <Col xs="2" style={{textAlign:'left'}}>
+                   <Button variant="info">דבר איתי</Button>
                 </Col>
+                <Col></Col>
             </Form.Row>
         </Form>
      );
