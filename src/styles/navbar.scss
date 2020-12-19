@@ -1,0 +1,22 @@
+.nav_container{
+    background-color:#B7E4F3 !important;
+    direction:rtl;
+    min-height: 60px;
+    
+    .nav_item{
+        text-align: right;
+        font-size: 18px;
+        padding: 8px;
+        border-radius: 3px;
+        transition: 0.5s;
+        font-family: 'Secular One', sans-serif;
+        color: black;
+        &:hover{
+            background-color: #FDBD43;
+            //color: #fff;
+        }
+    }
+    .navbar-toggler{
+        text-decoration: none;
+    }
+}

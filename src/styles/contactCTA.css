@@ -1,0 +1,22 @@
+.CTA_container {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.CTA_container img {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+/*# sourceMappingURL=contactCTA.css.map */

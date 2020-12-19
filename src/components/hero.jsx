@@ -1,10 +1,12 @@
 import React from 'react';
 import LazyHero from 'react-lazy-hero';
-import {aliceLogo} from '../assests/images'
+import {aliceLogo} from '../assests/images';
+
+import '../styles/hero.css';
 
 const MyLandingPage = ()=> {
     return (
-        <div style={{borderBottom:'1px solid black'}}>
+        <div className="alice_container">
             <LazyHero imageSrc={aliceLogo}></LazyHero>
         </div>
     );
